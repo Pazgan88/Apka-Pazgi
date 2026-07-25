@@ -1,0 +1,2 @@
+import { PackageOpen } from "lucide-react";
+export default function PantryPage() { return <main><h1 className="section-title">Spiżarnia</h1><p className="section-copy">Tutaj pojawią się produkty należące wyłącznie do zalogowanego użytkownika.</p><div className="empty"><PackageOpen size={40}/><strong>Spiżarnia jest pusta</strong><span>Ręczne dodawanie produktów powstanie w Etapie 2.</span></div></main>; }

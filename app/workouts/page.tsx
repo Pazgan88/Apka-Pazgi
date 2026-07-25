@@ -1,0 +1,2 @@
+import { Timer } from "lucide-react";
+export default function WorkoutsPage() { return <main><h1 className="section-title">Trening</h1><p className="section-copy">Moduł będzie zapisywał datę, godzinę rozpoczęcia i czas trwania treningu.</p><div className="empty"><Timer size={40}/><strong>Brak zapisanych treningów</strong><span>Start/Stop oraz własne ćwiczenia pojawią się w Etapie 7.</span></div></main>; }

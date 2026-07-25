@@ -1,0 +1,2 @@
+import { UserRound } from "lucide-react";
+export default function ProfilePage() { return <main><h1 className="section-title">Profil</h1><p className="section-copy">Profil będzie uzupełniany stopniowo podczas korzystania z aplikacji.</p><div className="empty"><UserRound size={40}/><strong>Profil demonstracyjny</strong><span>Logowanie Google i bezpieczne dane użytkownika podłączymy wraz z Supabase.</span></div></main>; }
